@@ -8,6 +8,9 @@ export const AboutMe = () => {
                 <p>
                     Soy una persona apasionada por la tecnología, un explorador incansable de un mundo que siempre me motiva a aprender y descubrir más sobre él.
                 </p>
+                <p>
+                    Apartir de mi creatividad y como programador <span>Full Stack</span> con conocimientods de tecnologias como React y NodeJS formaremos un gran equipo.
+                </p>
             </section>
             <section>
                 <h2>Diversidad de Conocimientos:</h2>

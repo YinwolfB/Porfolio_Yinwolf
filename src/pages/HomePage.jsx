@@ -18,12 +18,12 @@ export const HomePage = () => {
             <section>
                 {/* "Imágenes o iconos de tecnologías usadas para el trabajo" */}
                 <ul>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>React</li>
-                    <li>Node</li>
-                    <li>GitHub</li>
+                    <li><img src="" alt="Java Script" /></li>
+                    <li><img src="" alt="HTML" /></li>
+                    <li><img src="" alt="CSS" /></li>
+                    <li><img src="" alt="React" /></li>
+                    <li><img src="" alt="NodeJS" /></li>
+                    <li><img src="" alt="GitHub" /></li>
                 </ul>
             </section>
 
