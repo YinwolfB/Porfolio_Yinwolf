@@ -1,3 +1,11 @@
+import JS from "../../public/icons/bxl-javascript.svg";
+import HTML from "../../public/icons/bxl-html5.svg";
+import CSS from "../../public/icons/bxl-css3.svg";
+import REACT from "../../public/icons/bxl-react.svg";
+import NODEJS from "../../public/icons/bxl-nodejs.svg";
+import GITHUB from "../../public/icons/bxl-github.svg";
+import local from "../../public/icons/bx-hdd.svg";
+import server from "../../public/icons/bx-server.svg";
 
 export const Skills = () => {
     return (
@@ -9,15 +17,16 @@ export const Skills = () => {
                 </p>
                 <div>
                     <ul>
-                        <li><img src="" alt="JavaScript" /></li>
-                        <li><img src="" alt="HTML" /></li>
-                        <li><img src="" alt="CSS" /></li>
-                        <li><img src="" alt="React" /></li>
-                        <li><img src="" alt="Node.js" /></li>
+                    <li><img src={JS} alt="Java Script" /></li>
+                    <li><img src={HTML} alt="HTML" /></li>
+                    <li><img src={CSS} alt="CSS" /></li>
+                    <li><img src={REACT} alt="React" /></li>
+                    <li><img src={NODEJS} alt="NodeJS" /></li>
+                    
                     </ul>
                 </div>
                 <p>
-                    También he trabajado con datos locales <img src="" alt="Datos locales / Data local" /> o con peticiones a API <img src="" alt="Peticiones API / API requests" />. Además, he utilizado herramientas de repositorio como GitHub <img src="" alt="GitHub" /> para el control de versiones y colaboración.
+                    También he trabajado con datos estaticos <img src={local} alt="Datos estaticos / Data static" /> o con peticiones a API <img src={server} alt="Peticiones API / API requests" />. Además, he utilizado herramientas de repositorio como GitHub <img src={GITHUB} alt="GitHub" /> para el control de versiones y colaboración.
                 </p>
             </section>
 

@@ -1,4 +1,7 @@
 import { useState } from "react";
+import whatsapp from "../../public/img/img-whatsapp.jpeg";
+import linkedin from "../../public/img/img-linkedin.jpeg";
+import github from "../../public/img/img-github-octodex.jpeg";
 
 export const ContactMe = () => {
     const [email, setEmail] = useState('');
@@ -40,13 +43,13 @@ export const ContactMe = () => {
                 <h2>Visita mis redes.</h2>
                 <section>
                     <a href="https://wa.me/+573015187340" target="_blank" rel="noopener noreferrer">
-                        <img src="ruta_de_la_imagen_whatsapp" alt="WhatsApp.com" />
+                        <img src={whatsapp} alt="WhatsApp.com" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/andres-felipe-d%C3%ADaz-gamba-4a26502a4/" target="_blank" rel="noopener noreferrer">
+                            <img src={linkedin} alt="linkedin.com" />
                     </a>
                     <a href="https://github.com/YinwolfB?tab=repositories" target="_blank" rel="noopener noreferrer">
-                        <img src="ruta_de_la_imagen_github" alt="GitHub.com" />
-                    </a>
-                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                        <img src="ruta_de_la_imagen_linkedin" alt="LinkedIn.com" />
+                        <img src={github} alt="GitHub.com" />
                     </a>
                 </section>
             </div>
