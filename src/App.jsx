@@ -7,8 +7,8 @@ import { AboutMe } from "./pages/AboutMe"
 import { Skills } from "./pages/Skills"
 import { Projects } from "./pages/Projects"
 import { ContactMe } from "./pages/./ContactMe";
-import { NavBar } from "./components/NavBar";
-import { Footer } from "./components/Footer";
+import { NavBar } from "./components/NavBar/NavBar";
+import { Footer } from "./components/Footer/Footer";
 import { useEffect } from 'react'
 
 

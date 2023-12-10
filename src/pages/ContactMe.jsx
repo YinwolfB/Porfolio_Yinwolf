@@ -1,6 +1,9 @@
 
 export const ContactMe = () => {
     return (
-        <div>ContactMe</div>
+        <div>
+            <h1>Trabajemos juntos</h1>
+            
+        </div>
     )
 }
