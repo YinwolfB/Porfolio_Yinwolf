@@ -1,16 +1,26 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 
 import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useNavigate } from 'react-router-dom'
 import { HomePage } from "./pages/HomePage"
 import { AboutMe } from "./pages/AboutMe"
 import { Skills } from "./pages/Skills"
 import { Projects } from "./pages/Projects"
 import { ContactMe } from "./pages/./ContactMe";
 import { NavBar } from "./components/NavBar";
-import { Foother } from "./components/Foother";
+import { Footer } from "./components/Footer";
+import { useEffect } from 'react'
 
 
 function App() {
+
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    navigate('/')
+  }, [])
+  
+
   return (
     <div>
       <nav>
@@ -24,7 +34,7 @@ function App() {
         <Route path='/contact-me' element={<ContactMe />} />
       </Routes>
       <footer>
-        <Foother/>
+        <Footer/>
       </footer>
     </div>
   )
