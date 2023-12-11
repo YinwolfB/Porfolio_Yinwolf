@@ -6,14 +6,14 @@
     flex-wrap: wrap;
     align-items: center;
     align-content: space-around;
-    margin: 1em;
+    /* margin: 1em; */
     background-color: var(--firstBGColorBlack);
 }
 
 .nav__slogan {
     width: 200px;
     /* margin: 1em; */
-    filter: invert(1)
+    filter: invert(1);
 }
 
 .nav__containLinks {
@@ -34,13 +34,11 @@
 
 /* Difuminar los demás enlaces cuando se pasa el mouse sobre uno de ellos */
 .nav__containLinks:hover .nav__link {
-    color: red;
     opacity: 0.2;
 }
 
 /* Restablecer la opacidad del enlace activo */
 .nav__containLinks:hover .nav__link:hover {
-    color: red;
     opacity: 0.8;
 }
 

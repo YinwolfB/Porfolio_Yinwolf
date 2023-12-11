@@ -2,7 +2,7 @@
 
 import './App.css';
 import { Route, Routes, useNavigate } from 'react-router-dom';
-import { HomePage } from "./pages/HomePage";
+import { HomePage } from "./pages/Home/HomePage";
 import { AboutMe } from "./pages/AboutMe";
 import { Skills } from "./pages/Skills";
 import { Projects } from "./pages/Projects";
