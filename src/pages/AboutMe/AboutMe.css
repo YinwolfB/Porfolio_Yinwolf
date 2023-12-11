@@ -1,0 +1,122 @@
+.about {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.812)), url(https://i.pinimg.com/originals/c9/9e/35/c99e353f761d318322c853c03ebcf21b.gif);
+    background-color: var(--firstBGColorBlack);
+}
+
+.about__nav {
+    height: 20vh;
+
+}
+
+.about__container0 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 1em;
+    margin: 1em;
+    padding: 2em;
+}
+
+.about__h1 {
+    display: flex;
+    justify-content: center;
+    animation: fluido 30s ease-in-out infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+
+
+.about__section1,
+.about__section2,
+.about__section3,
+.about__section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__teatle1,
+.about__teatle2,
+.about__teatle3,
+.about__teatle4 {
+    color: var(--secondBGColorWhiteBlue);
+
+}
+
+
+
+.about__p {
+    color: var(--firstFontColorWhiteBlue);
+
+}
+
+.about__footer {
+    height: auto;
+}
+
+
+/* 
+.about__teatle1,
+.about__teatle2,
+.about__teatle3,
+.about__teatle4 {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2rem;
+    margin: 0 auto;
+    font-family: "Courier New";
+    border-right: 0.15em solid var(--violet);
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+    color: var(--firstFontColorWhiteBlue);
+
+
+}
+
+.about__teatle1 {
+    --typing-width: 48vw; 
+    --typing-duration: 5s;
+}
+
+.about__teatle2 {
+    --typing-width: 36vw; 
+    --typing-duration: 5s;
+}
+
+.about__teatle3 {
+    --typing-width: 26vw; 
+    --typing-duration: 6s;
+}
+
+.about__teatle4 {
+    --typing-width: 41vw; 
+    --typing-duration: 3s;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: var(--typing-width);
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+ */

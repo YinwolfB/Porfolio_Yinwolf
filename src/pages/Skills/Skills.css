@@ -1,0 +1,155 @@
+* {
+    color: var(--firstFontColorWhiteBlue);
+}
+
+.skills {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.812)), url(https://usagif.com/wp-content/uploads/gif/confetti-21.gif);
+    background-color: var(--firstBGColorBlack);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.skills__nav {
+    height: 20vh;
+    margin-bottom: 3em;
+}
+
+
+.skills__container0 {
+    height: auto;
+    padding: 1em;
+    margin: 1em;
+}
+
+.skills__container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.skills__container--h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.skills__container--p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__listIcon {
+    position: relative;
+    display: inline-block;
+    margin: 0 8px;
+    /* Ajusta el espaciado entre los iconos */
+}
+
+.skills__listIcon::after {
+    content: attr(data-tooltip);
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 4px);
+    /* Ajusta la posición del tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.skills__listIcon:hover::after {
+    display: block;
+}
+
+.skills__icon span {
+    display: inline-block;
+    margin: 0 4px;
+
+}
+
+.skills__icon--local,
+.skills__icon--api,
+.skills__icon--github {
+    width: 20px;
+}
+
+.skills__container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skills__container2 h2{
+    margin-bottom: 20px;
+    padding-top: 2em;
+}
+.skills__container2 p {
+    margin-bottom: 20px;
+}
+
+.skills__othersContainer,
+.skills__audiov,
+.skills__youtube {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills__other--music,
+.skills__other--edu,
+.skills__other--pc,
+.skills__other--audiov {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.skills__other--music strong,
+.skills__other--edu strong,
+.skills__other--pc strong,
+.skills__other--audiov strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.skills__audiov ul {
+    margin-top: 10px;
+}
+
+.skills__audiov li {
+    margin-bottom: 10px;
+}
+
+.skills__other--items {
+    text-align: center;
+}
+
+.skills__youtube {
+    max-width: 600px;
+}
+
+.skills__youtube li {
+    margin-bottom: 20px;
+}
+
+.skills__item {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.skills__footer {
+    height: auto;
+}
