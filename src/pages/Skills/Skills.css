@@ -1,6 +1,4 @@
-* {
-    color: var(--firstFontColorWhiteBlue);
-}
+
 
 .skills {
     background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.812)), url(https://usagif.com/wp-content/uploads/gif/confetti-21.gif);
@@ -32,6 +30,7 @@
 .skills__container--h2 {
     display: flex;
     justify-content: center;
+    color: var(--firstFontColorWhiteBlue)
 }
 
 .skills__container--p {
@@ -39,13 +38,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    color: var(--firstFontColorWhiteBlue)
 }
 
 .skills__listIcon {
     position: relative;
     display: inline-block;
     margin: 0 8px;
-    /* Ajusta el espaciado entre los iconos */
 }
 
 .skills__listIcon::after {
@@ -66,11 +65,13 @@
 .skills__listIcon:hover::after {
     display: block;
 }
-
+.skills__icon {
+    color: var(--firstFontColorWhiteBlue)
+}
 .skills__icon span {
     display: inline-block;
     margin: 0 4px;
-
+    
 }
 
 .skills__icon--local,
@@ -84,14 +85,17 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color: var(--firstFontColorWhiteBlue)
 }
 
 .skills__container2 h2{
     margin-bottom: 20px;
     padding-top: 2em;
+    color: var(--firstFontColorWhiteBlue)
 }
 .skills__container2 p {
     margin-bottom: 20px;
+    color: var(--firstFontColorWhiteBlue)
 }
 
 .skills__othersContainer,

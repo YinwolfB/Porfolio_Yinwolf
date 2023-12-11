@@ -5,7 +5,7 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import { HomePage } from "./pages/Home/HomePage";
 import { AboutMe } from "./pages/AboutMe/AboutMe";
 import { Skills } from "./pages/Skills/Skills";
-import { Projects } from "./pages/Projects";
+import { Projects } from "./pages/proyects/Projects";
 import { ContactMe } from "./pages/ContactMe";
 /* import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer"; */
