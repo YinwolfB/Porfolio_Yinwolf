@@ -1,17 +1,18 @@
 import { Link } from 'react-router-dom';
 import Blast from "../../../public/logos/Mimi-blaster.png";
+import './NavBar.css'
 
 export const NavBar = () => {
 
     return (
-        <nav>
-            <img src={Blast} alt="slogan" />
-            <ul>
-            <li><Link to="/">Home</Link></li>
-                <li><Link to="/about-me">About Me</Link></li>
-                <li><Link to="/skills">Skills</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/contact-me">Contact Me</Link></li>
+        <nav className='nav'>
+            <img className='nav__slogan' src={Blast} alt="slogan" />
+            <ul className='nav__containLinks'>
+                <li className='nav__link'><Link to="/"> <span className='nav__link--home'> Home </span> </Link></li>
+                <li className='nav__link'><Link to="/about-me"> <span className='nav__link--aboutMe'> About Me </span> </Link></li>
+                <li className='nav__link'><Link to="/skills"> <span className='nav__link--skills'> Skills </span> </Link></li>
+                <li className='nav__link'><Link to="/projects"> <span className='nav__link--projects'> Projects </span> </Link></li>
+                <li className='nav__link'><Link to="/contact-me"> <span className='nav__link--contactMe'> Contact Me </span> </Link></li>
             </ul>
         </nav>
     );
