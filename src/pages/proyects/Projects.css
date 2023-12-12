@@ -2,7 +2,6 @@
     background-color: var(--firstBGColorBlack);
 }
 .projects_container{
-
     text-align: center;
     color: var(--firstFontColorWhiteBlue);
     flex-wrap: wrap;

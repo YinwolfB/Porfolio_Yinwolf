@@ -1,14 +1,17 @@
 
 import './Home.css';
-
+/* 
 import JS from "../../../public/logos/logo-javascript.png";
 import HTML from "../../../public/logos/html_logo.png";
 import CSS from "../../../public/logos/css-logo.png";
 import REACT from "../../../public/logos/react-logo.png";
 import NODEJS from "../../../public/logos/nodejs-logo.png";
-import GITHUB from "../../../public/logos/github-logo.png";
+import GITHUB from "../../../public/logos/github-logo.png"; */
 import { Footer } from '../../components/Footer/Footer';
 import { NavBar } from '../../components/NavBar/NavBar';
+import Slider from '../../components/slider/Slider';
+
+
 
 
 export const HomePage = () => {
@@ -33,14 +36,18 @@ export const HomePage = () => {
 
                 <section className='home__carrusel'>
                     {/* "Imágenes o iconos de tecnologías usadas para el trabajo" */}
-                    <ul className='home__carrusel--lists'>
-                        <li className='home__list'><img className='home__list--js' src={JS} alt="Java Script" /></li>
-                        <li className='home__list'><img className='home__list--html' src={HTML} alt="HTML" /></li>
-                        <li className='home__list'><img className='home__list--css' src={CSS} alt="CSS" /></li>
-                        <li className='home__list'><img className='home__list--react' src={REACT} alt="React" /></li>
-                        <li className='home__list'><img className='home__list--node' src={NODEJS} alt="NodeJS" /></li>
-                        <li className='home__list'><img className='home__list--github' src={GITHUB} alt="GitHub" /></li>
-                    </ul>
+{/*                     <ul className='home__carrusel--lists'>
+
+                            <li className='home__list'><img className='home__list--js' src={JS} alt="Java Script" /></li>
+                            <li className='home__list'><img className='home__list--html' src={HTML} alt="HTML" /></li>
+                            <li className='home__list'><img className='home__list--css' src={CSS} alt="CSS" /></li>
+                            <li className='home__list'><img className='home__list--react' src={REACT} alt="React" /></li>
+                            <li className='home__list'><img className='home__list--node' src={NODEJS} alt="NodeJS" /></li>
+                            <li className='home__list'><img className='home__list--github' src={GITHUB} alt="GitHub" /></li>
+
+                    </ul> */}
+
+                    <Slider/>
                 </section>
 
                 <section className="home__container2">

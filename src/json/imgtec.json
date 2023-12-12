@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "name": "img1",
+        "url": "../../public/logos/logo-javascript.png"
+    },
+    {
+        "id": 1,
+        "name": "img2",
+        "url": "../../public/logos/html_logo.png"
+    },
+    {
+        "id": 2,
+        "name": "img3",
+        "url": "../../public/logos/css-logo.png"
+    },
+    {
+        "id": 3,
+        "name": "img4",
+        "url": "../../public/logos/react-logo.png"
+    },
+    {
+        "id": 4,
+        "name": "img5",
+        "url": "../../public/logos/nodejs-logo.png"
+    },
+    {
+        "id": 5,
+        "name": "img6",
+        "url": "../../public/logos/github-logo.png"
+    }
+]

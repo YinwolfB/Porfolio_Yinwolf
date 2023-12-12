@@ -84,7 +84,7 @@ export const Projects = () => {
                             </div>
 
                             <div>
-                                <img className="projects_img" src={estatica, server} alt="CRUD (Create, Read, Update, Delete)" />
+                                <img className="projects_img" src={estatica} alt="CRUD (Create, Read, Update, Delete)" />
                                 <h3>CRUD (Create, Read, Update, Delete):</h3>
                                 <p>Conjunto de operaciones básicas para la gestión de datos en aplicaciones, incluyendo la creación, lectura, actualización y eliminación de información, comúnmente asociado con bases de datos y servicios web.</p>
                             </div>

@@ -6,7 +6,7 @@ import { HomePage } from "./pages/Home/HomePage";
 import { AboutMe } from "./pages/AboutMe/AboutMe";
 import { Skills } from "./pages/Skills/Skills";
 import { Projects } from "./pages/proyects/Projects";
-import { ContactMe } from "./pages/ContactMe";
+import { ContactMe } from "./pages/ContactMe/ContactMe";
 /* import { NavBar } from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer"; */
 import { useEffect } from 'react';
@@ -20,10 +20,6 @@ function App() {
 
   return (
     <div className='app'>
-{/*       <nav className='app__nav'>
-        <NavBar />
-      </nav> */}
-
       <section className='app__pages'>
         <Routes>
           <Route path='/' element={<HomePage />} />
